@@ -33,6 +33,14 @@
             background-color: gray;
             color: white;
         }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
     </style>
     
     <title>Tabelas</title>
@@ -71,7 +79,6 @@
     </table>
 
     <h1>Uso de tabelas grandes</h1>
-    <caption> Estado e População</caption>
     <!--
         Anatomia para tabelas grandes
         table
@@ -81,15 +88,18 @@
                 tr, td, th
             TFOOT 
                 tr, td ,th  
-        capition = legenda ta tabela
+        caption = legenda ta tabela
+        Dados = td
+        titulos = th
      -->
+     
      <table>
-        
+        <caption>Estado e População</caption>
 
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
 
             </tr>
         </thead>
@@ -101,10 +111,12 @@
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
-                <td>00000</td>
+                <td scope="row"> Total de habitantes</td>
+                <th><strong>0000000</strong></th>
             </tr>
         </tfoot>
+            
+
 
      </table>
     
