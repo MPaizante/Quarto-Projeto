@@ -9,14 +9,15 @@ body{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    height: 50vh;
+    height: 98vh;
     position: relative;
+
     
 }
 
 div.foto{
     
-    background-image: url(../../311886071_670586081233165_4622866899057044612_n.jpg);
+    background-image: url(style/311886071_670586081233165_4622866899057044612_n.jpg);
     height: 200px;
     width: 200px;
     border: 1px solid black;
@@ -29,12 +30,12 @@ div.foto{
     top: 100px; 
 }  
 div.github{
-    border: 5px solid white;
-    border-radius: 10px;
+    border: 3px solid white;
+    border-radius: 50px;
     color: back;
     text-align: left;
     width: 400px;
-    height: 50px;
+    height: 60px;
     text-decoration: none;
     position: absolute;
     left: 750px;
@@ -45,12 +46,12 @@ div.github{
 
 }
 div.instagram{
-    border: 5px solid white;
-    border-radius: 10px;
+    border: 3px solid white;
+    border-radius: 50px;
     color: back;
     text-align: left;
     width: 400px;
-    height: 50px;
+    height: 60px;
     text-decoration: none;
     position: absolute;
     left: 750px;
@@ -59,12 +60,12 @@ div.instagram{
 
 }
 div.email{
-    border: 5px solid white;
-    border-radius: 10px;
+    border: 3px solid white;
+    border-radius: 50px;
     color: back;
     text-align: left;
     width: 400px;
-    height: 50px;
+    height: 60px;
     text-decoration: none;
     position: absolute;
     left: 750px;
@@ -73,6 +74,39 @@ div.email{
     
     
     
+
+}
+div.gim{
+    border: 0px solid white;
+    border-radius: 10px;
+    color: back;
+    text-align: left;
+    width: 400px;
+    height: 50px;
+    text-decoration: none;
+    position: absolute;
+    left: 900px;
+    top: 305px;
+
+}
+div.amnd{
+    border: 0px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    color: back;
+    text-align: left;
+    width: 400px;
+    height: 50px;
+    text-decoration: none;
+    position: absolute;
+    left: 900px;
+    top: 350px;
+    color: black;
+    text-decoration: solid;
+    font-weight: bold;
+    
+}
+div:hover{
+    background-color: white;
 
 }
 
