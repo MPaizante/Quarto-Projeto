@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color: blueviolet;
+    background-image: url('https://s2.glbimg.com/EkkR5Wt8ZvVtMBRykoXloluTYGE=/0x0:1000x561/984x0/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2018/03/07/windows-xp-recebe-atualizacao-emergencial-de-seguranca.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    
+}
+
+div.foto{
+    
+    background-image: url(../../311886071_670586081233165_4622866899057044612_n.jpg);
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: 200px;
+    position: absolute;
+    left: 830px;
+    top: 100px; 
+}  
+div.github{
+    border: 5px solid white;
+    border-radius: 10px;
+    color: back;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    text-decoration: none;
+    position: absolute;
+    left: 750px;
+    top: 400px; 
+    font-family: 'Poppins', sans-serif;
+
+
+}
+div.instagram{
+    border: 5px solid white;
+    border-radius: 10px;
+    color: back;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    text-decoration: none;
+    position: absolute;
+    left: 750px;
+    top: 500px;
+    font-family: 'Poppins', sans-serif;
+
+}
+div.email{
+    border: 5px solid white;
+    border-radius: 10px;
+    color: back;
+    text-align: left;
+    width: 400px;
+    height: 50px;
+    text-decoration: none;
+    position: absolute;
+    left: 750px;
+    top: 600px; 
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+
+}
+
+
